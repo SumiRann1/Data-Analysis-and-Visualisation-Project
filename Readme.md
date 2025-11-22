@@ -74,7 +74,7 @@ for Windows
 Make sure Python 3.10+ is installed. Then install all required packages:
 
 ```bash
-pip install -r requirements.txt
+pip install matplotlib scikit-learn pandas numpy streamlit openpyxl
 ```
 
 ### **6. Start the server**
