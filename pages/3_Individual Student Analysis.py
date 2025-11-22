@@ -11,7 +11,7 @@ if "page" not in st.session_state:
 
 col11, col22 = st.columns(2)
 with col11:
-    st.image("assets/Student_Analyser_Logo_1x1.png", width='stretch')
+    st.image("assets//Student_Analyser_Logo_1x1.png", width='stretch')
 with col22:
    st.markdown("""
     <h1 style='text-align: center; color: #FFA239; font-family: Constantia;'>
@@ -20,8 +20,8 @@ with col22:
     </h1>
 """, unsafe_allow_html=True)
    
-st.logo(icon_image="assets/icon.png", image= "assets/Student_Analyser_Logo_1x1.png", size = "large")
-st.sidebar.image("assets/Student_Analyser_Logo_1x1.png", width = "stretch")
+st.logo(icon_image="assets//icon.png", image= "assets//Student_Analyser_Logo_1x1.png", size = "large")
+st.sidebar.image("assets//Student_Analyser_Logo_1x1.png", width = "stretch")
 
 def ind_stud_analysis():
     df = st.session_state.get("df", None)
@@ -201,3 +201,4 @@ st.markdown(
     <p style='text-align:center; font-size: 18px'>
         CopyRights Reseversed @ 2k25 for CSL100
     """, unsafe_allow_html=True)
+
