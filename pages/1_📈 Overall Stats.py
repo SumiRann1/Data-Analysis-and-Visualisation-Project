@@ -20,10 +20,10 @@ with col11:
     </h1>
 """, unsafe_allow_html=True)
 with col22:
-    st.image("assets/Student_Analyser_Logo_1x1.png", use_container_width="True")
+    st.image("assets//Student_Analyser_Logo_1x1.png", use_container_width="True")
 
-st.logo(icon_image="assets/icon.png", image= "assets/Student_Analyser_Logo_1x1.png", size = "large")
-st.sidebar.image("assets/Student_Analyser_Logo_1x1.png", width = "stretch")
+st.logo(icon_image="assets//icon.png", image= "assets//Student_Analyser_Logo_1x1.png", size = "large")
+st.sidebar.image("assets//Student_Analyser_Logo_1x1.png", width = "stretch")
 
 st.divider()
 
@@ -144,3 +144,4 @@ st.markdown(
     <p style='text-align:center; font-size: 18px'>
         CopyRights Reseversed @ 2k25 for CSL100
     """, unsafe_allow_html=True)
+
