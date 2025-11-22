@@ -66,7 +66,7 @@ source venv/bin/activate
 or 
 for Windows
 ```bash
-. /venv/bin/activate
+venv\Scripts\activate
 ```
 
 ### **5. Install dependencies**
