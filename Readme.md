@@ -76,6 +76,10 @@ Make sure Python 3.10+ is installed. Then install all required packages:
 ```bash
 pip install matplotlib scikit-learn pandas numpy streamlit openpyxl
 ```
+or
+```bash
+pip install -r requirements.txt
+```
 
 ### **6. Start the server**
 
@@ -110,12 +114,12 @@ project/
 ---
 ## Screenshots
 
-![App Screenshot](assets//Screenshot1.png)
-Screenshot 1
-![App Screenshot](assets//Screenshot2.png)
-Screenshot 2
+![App Screenshot](assets//Screenshot1.png)   ![App Screenshot](assets//Screenshot2.png)
+Screenshot 1                                    Screenshot 2
+
 ![App Screenshot](assets//Screenshot3.png)
 Screenshot 3
+
 ![App Screenshot](assets//Screenshot4.png)
 Screenshot 4
 
