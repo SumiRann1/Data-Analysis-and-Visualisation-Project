@@ -24,7 +24,7 @@ st.sidebar.image("assets//Student_Analyser_Logo_1x1.png", width = "stretch")
 if "page" not in st.session_state:
     st.session_state.page = "upload"
 try:
-    elif st.session_state.df is not None:
+    if st.session_state.df is not None:
         st.session_state.page = "analysis"
         if st.sidebar.button("⬅️ Back to Upload"):
             st.session_state.page = "upload"
@@ -346,5 +346,6 @@ st.markdown(
     <p style='text-align:center; font-size: 18px'>
         CopyRights Reseversed @ 2k25 for CSL100
     """, unsafe_allow_html=True)
+
 
 
