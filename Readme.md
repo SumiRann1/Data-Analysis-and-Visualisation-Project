@@ -114,14 +114,17 @@ project/
 ---
 ## Screenshots
 
-![App Screenshot](assets//Screenshot1.png)   ![App Screenshot](assets//Screenshot2.png)
-Screenshot 1                                    Screenshot 2
+![App Screenshot](assets//Screenshot1.png)   
+Screenshot 1   -  Home Page - Upload the data provided for testing   
+
+![App Screenshot](assets//Screenshot2.png)
+Screenshot 2   -  A short glimpses of GENERAL Feature Analysis
 
 ![App Screenshot](assets//Screenshot3.png)
-Screenshot 3
+Screenshot 3    -  Second Page to Compare Overall all Courses Performanse
 
 ![App Screenshot](assets//Screenshot4.png)
-Screenshot 4
+Screenshot 4    -  CSL Performance Analysis
 
 
 
