@@ -28,6 +28,8 @@ st.sidebar.image("assets//Student_Analyser_Logo_1x1.png", width = "stretch")
 st.divider()
 
 def overall_stats():
+    if st.session_state.page == "analysis":
+        st.session_state.page = "overall"
     df = st.session_state.get("df", None)
     if df is None:
         st.warning("No data loaded. Please upload in Home.")
@@ -144,4 +146,5 @@ st.markdown(
     <p style='text-align:center; font-size: 18px'>
         CopyRights Reseversed @ 2k25 for CSL100
     """, unsafe_allow_html=True)
+
 
